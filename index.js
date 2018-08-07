@@ -22,3 +22,12 @@ function makeInt(a){
 function makeInt('0x2328' ,10){
   return (0)
 }
+function makeInt('sldkjflksjf' ,10){
+  return (NaN)
+}
+function preserveDecimal('2.222'){
+  return (2.222)
+}
+function preserveDecimal('sldkjflksjf'){
+  return(NaN)
+}
